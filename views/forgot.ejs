@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notepad.MI</title>
+  </head>
+  <body>
+    <h1>Восстановление пароля <%= email %></h1>
+    <form action="<%= forgotLink %>" enctype="text/plain" method="post">
+      <input type="password" placeholder="Новый пароль" name="new" />
+      <input type="submit" value="Сменить пароль" />
+    </form>
+  </body>
+</html>
